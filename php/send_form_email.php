@@ -2,7 +2,7 @@
  
 if(isset($_POST['email'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "significantowlowl@gmail.com";
+    $email_to = "info@particledesigns.dk";
     $email_subject = "PARTICLE MAIL";
  
     function died($error) {
@@ -67,7 +67,7 @@ if(isset($_POST['email'])) {
  
 	@mail($email_to, $email_subject, $email_message, $headers);
 	
-    $email_to = "ralf.patric@yahoo.com";
+    $email_to = "ralfpatric@particledesigns.dk";
 	
 	@mail($email_to, $email_subject, $email_message, $headers);
 	
