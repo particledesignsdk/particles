@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Particle Designs</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/jquery-2.2.2.min.js"></script>
+    <script>
+    var ua = window.navigator.userAgent;
+
+    var edge = ua.indexOf('Edge/');
+    if (edge > 0) {
+		// Edge (IE 12+) => return version number
+		$('head').append('<link href="css/styleEdge.css" rel="stylesheet">');
+    } else {
+		$('head').append('<link href="css/style.css" rel="stylesheet">');
+	}
+	</script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <div id="loader-wrapper">
+      <img src="img/PreloaderLogo.png" />
+      <div id="loader"></div>
+
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+  </div>
+
+
+
+
+  <!-- ------------------------- Social Media icons on left -------------------------------------- -->
+
+
+  <nav id="newNav" class="navbar navbar-inverse" data-spy="affix">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-left page-scroll">
+              <li><a class="page-scroll" href="#home"><img src="img/ParticleDesignsLogo.png" /></a></li>
+              <li><a class="page-scroll" href="#services">Services</a></li>
+              <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+              <li><a class="page-scroll" href="#about">About Us</a></li>
+              <li><a class="page-scroll" href="#the_team">The Team</a></li>
+              <li><a class="page-scroll" href="#contact">Hire Us</a></li>
+          </ul>
+
+          <ul class="list-inline navbar-right social-buttons-nav">
+              <li><a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+
+
+<div class="container-fluid particles-fix hidden-xs hidden-sm hidden-md" id="particles-js"></div>
+
+<div class="container-fluid particles-fix hidden-lg" id="particles-js2"></div>
+
+<div class="container-fluid front-page hidden-xs hidden-sm" id="home">
+    <div class="row nav-row">
+        <div class="col-md-12 text-center">
+
+            <h1>Particle<br><span>designs</span></h1>
+
+        </div>
+        <div class="col-md-12 text-center">
+
+            <nav class="title-nav">
+                <ul>
+                    <li><a class="page-scroll link-1" href="#services">Services</a></li>
+                    <li><a class="page-scroll link-1" href="#portfolio">Portfolio</a></li>
+                    <li><a class="page-scroll link-1" href="#about">About Us</a></li>
+                    <li><a class="page-scroll link-1" href="#the_team">The Team</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="col-md-12 text-center button-container">
+
+            <a class="page-scroll hire-us-button" href="#contact">Hire Us</a>
+
+        </div>
+    </div>
+</div>
+
+<div id="xs-header" class="container-fluid front-page hidden-md hidden-lg">
+    <div class="row nav-row">
+        <div class="col-md-12 text-center">
+
+            <h1>Particle<br><span>designs</span></h1>
+
+        </div>
+        <div class="col-md-12 text-center">
+
+            <nav class="title-nav">
+                <ul>
+                    <li><a class="page-scroll link-1" href="#services">Services</a></li>
+                    <li><a class="page-scroll link-1" href="#portfolio">Portfolio</a></li>
+                    <li><a class="page-scroll link-1" href="#about">About Us</a></li>
+                    <li><a class="page-scroll link-1" href="#the_team">The Team</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="col-md-12 text-center button-container">
+
+            <a class="page-scroll hire-us-button" href="#contact">Hire Us</a>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid service-separator"></div>
+
+
+<section id="services">
+    <h2 class="text-center section-heading">Services</h2>
+</section>
+
+
+<div class="container-fluid main-container">
+
+<section class="section-full-height">
+    <div class="container top-padding-k">
+
+        <div class="row">
+            <div class="col-xs-12 col-md-4 text-center services-card">
+                <h3>Web Design</h3>
+                <i class="fa fa-paint-brush fa-3x"></i>
+                <p>We take your directions and wishes and turn them into reality - whether they are a website or another kind of online application. With years of experience and a solid foundation in the internationally-famed Danish design principles, Particle design offers easily navigable, clear and visually striking design. </p>
+            </div>
+
+            <div class="col-xs-12 col-md-4 text-center services-card">
+                <h3>Web Apps</h3>
+                <i class="fa fa-code fa-3x"></i>
+                <p>Whether you need a game for your marketing campaign thrust, a quiz, an online ordering system, or something entirely different, Particle Designs can develop, design and test it all for you. We have extensive knowledge of the development process, and the tools required to carry such a project out.</p>
+            </div>
+
+            <div class="col-xs-12 col-md-4 text-center services-card">
+                <h3>Web Support</h3>
+                <i class="fa fa-medkit fa-3x"></i>
+                <p>It is incredibly important to us that what we deliver solid work. We offer personal, phone and email support on everything we deliver, and we will help fix up what you currently have even if we haven't made it. Our goal is to ensure that you can continue to create value for you, and for your audience.</p>
+            </div>
+        </div>
+
+        <!--<div class="col-md-12 text-center">
+            <div id="ssuccess"></div>
+            <button type="submit" class="btn btn-xl">Hire Us</button>
+        </div>-->
+
+        <div class="col-md-12 text-center top-padding-k">
+            <a class="page-scroll btn btn-xl" href="#contact">Hire Us</a>
+        </div>
+
+    </div>
+    <br>
+</section>
+</div>
+
+<section id="portfolio">
+    <h2 class="text-center section-heading">Portfolio</h2>
+    </section>
+
+<div class="container-fluid main-container">
+<section class="section-full-height">
+    <div class="container-fluid top-padding-k">
+
+
+        <div class="container">
+            <div class="col-md-12 center-block bottom-padding-k">
+                <h3 class="text-center" id="portfolio-intro">Our portfolio is a selection of some of the various digital solutions we have produced, both websites and applications. If you would like to see further examples of our work, or want us to create something for you, feel free to contact us.</h3>
+            </div>
+
+            <div class="row portfolio-card">
+                <div class="col-md-6 portfolio-item">
+                    <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal1">
+                        <img src="img/1.jpg" class="img-responsive img-centered portfolio-image" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <h4 class="portfolio-item-header">SMC - Sharing Economy Concept</h4>
+                    <p>The main concept behind SMC was to help people with similar interests but from different regions interect with each other. The entire system was basen on a guide system where person A, who was interested in something person B had to offer, while person B being the guide for person A.</p>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="row portfolio-card portfolio-grey">
+
+
+                <div class="container">
+                    <div class="col-md-6 col-md-push-6 portfolio-item">
+                        <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal2">
+                            <img src="img/2.JPG" class="img-responsive img-centered portfolio-image" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-md-pull-6">
+                        <h4 class="portfolio-item-header">Writing and Content Design</h4>
+                        <p>The "How to be a spy for an afternoon" article, and the e-zine in which it is presented, are exercises in presenting digital content in a compelling way. The product was made primarily with Adobe InDesign. For more information on the project, click the article image.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        <div class="container">
+
+            <div class="row portfolio-card">
+                <div class="col-md-6 portfolio-item">
+                    <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModal3">
+                    <img src="img/3.jpg" class="img-responsive img-centered portfolio-image" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <h4 class="portfolio-item-header">Dungeon Hero</h4>
+                    <p class="text-center"><b><i>Immerse yourself into retro-style gaming with Dungeon Hero, an epic world filled with classic RPG elements such as shining armors and ferocious monsters!</i></b></p>
+                    <p>The project started off as an Arena grinder concept and ended up being a dungeon based role playing game.The role of the player is to control and aid the Torbjorn on his quest for revenge. The player has to decide which enemies to fight, decide when it fits best to rest, what armor to buy and to level up the character.  </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+</div>
+
+<section id="about">
+    <h2 class="text-center section-heading">About Us</h2>
+</section>
+
+<div class="container-fluid main-container">
+<section class="section-full-height">
+
+    <div class="container top-padding-k">
+
+        <div class="col-md-12 center-block bottom-padding-k" id="about-intro">
+            <h4 class="text-center">Particle Designs is an assurance of quality, and of a solution that works. We are a young company with great ambitions, and the knowledge to see them fulfilled. We come up with solutions for your digital problems, and build them for you. We polish your creative vision, and make it real. Above all, we create value for you - because otherwise, what's the point?</h4>
+        </div>
+
+        <div class="container col-md-12 center-block" id="color-container" >
+                    <div class="col-md-12 center-block">
+                        <h3 class="text-center">Want to know more about us? Click on the wheel below.</h3>
+                    </div>
+
+                    <div id="wheelNav" class="col-md-6">
+
+                    </div>
+
+                    <div id="mission-box" class="col-md-6 box-margin about-card">
+                        <h3>Mission</h3>
+                        <p>The mission of Particle Designs is to employ our knowledge and experience of marketing, design and coding to produce and enhance the visual identity of our clients, and create whatever digital solutions they require. We're happy when you're happy with what you've received, and we won't take a job if we can't see ourselves creating value for you.</p>
+                    </div>
+
+                    <div id="vision-box" class="col-md-6 box-margin about-card" style="display: none;">
+                        <h3>Vision</h3>
+                        <p>The vision of Particle Designs is to continually learn and keep our existing knowledge up to date, so we will be able to assess what course will provide you, our client, with the most value we can give you. As we wrote above: If we aren't creating value for you, what's the point?</p>
+                    </div>
+
+                    <div id="values-box" class="col-md-6 box-margin about-card" style="display: none;">
+                        <h3>Values</h3>
+                        <p>Particle Designs has 3 core values. We are customer-focused: We aim to provide high-quality services that meet and surpass the expectations of our clients. We are value-focused: We always keep in mind that we need to provide the most value we can to our clients to be doing our jobs well. We are knowledge-focused: We recognize that our ability to serve our clients best depends entirely on the depth and breadth of our knowledge..</p>
+                    </div>
+
+        </div>
+
+
+
+    </div>
+
+</section>
+
+</div>
+
+
+
+<section id="the_team">
+    <h2 class="text-center section-heading">The Team</h2>
+</section>
+
+<div class="container-fluid main-container">
+<section class="section-full-height">
+    <div class="container top-padding-k">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="img/ralf.jpg" class="img-responsive img-centered center-block" id="teampic1" alt="Team Image">
+            </div>
+
+            <div class="col-md-12 text-center team-intro">
+                <p>Particle Designs is the natural development of two people - Ralf and John - working together over the course of several years. In late August 2014, we both started our Multimedia Design education at KEA - Copenhagens School of Design and Technology. From the very first day of that education, through various groups and tasks, we worked together. A shared passion for not just doing what was required, but for doing exceptional work, was what drove us forward and, 2 years down the line, lead to us to the creation of Particle Designs.</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="row team-card">
+            <div class="col-xs-12 col-sm-12 col-md-6 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <img src="img/ralf3.jpg" class="img-responsive img-centered img-circle teampic"  alt="Ralf Image">
+                </a>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 hidden-md hidden-lg text-center">
+                <h4>Ralf Patrik Blaga</h4>
+                <p>Used to coding since early school days, Ralf-Patrik Blaga took his skills further by integrating not just design work, but by becoming a capable organiser and project leader. Originally from Satu Mare, Romania, Ralf moved to Copenhagen to pursue education in the field, further increasing his skills.</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <img src="img/john.jpg" class="img-responsive img-centered img-circle teampic text-center"  alt="John Image">
+                </a>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 hidden-md hidden-lg text-center">
+                <h4>Johannes Skjærbæk</h4>
+                <p>With over 5 years of design and coding experience, Johannes Skjærbæk is an integral part of Particle Designs. He was born in Silkeborg, Jutland, but has been forgiven of this crime in recent years, having made his new home in Copenhagen, learning the web development and design trade.</p>
+            </div>
+
+            <div class="col-md-6 hidden-xs hidden-sm text-center">
+                <h4>Ralf Patrik Blaga</h4>
+                <p>Used to coding since early school days, Ralf-Patrik Blaga took his skills further by integrating not just design work, but by becoming a capable organiser and project leader. Originally from Satu Mare, Romania, Ralf moved to Copenhagen to pursue education in the field, further increasing his skills.</p>
+            </div>
+
+            <div class="col-md-6 hidden-xs hidden-sm text-center">
+                <h4>Johannes Skjærbæk</h4>
+                <p>With over 5 years of design and coding experience, Johannes Skjærbæk is an integral part of Particle Designs. He was born in Silkeborg, Jutland, but has been forgiven of this crime in recent years, having made his new home in Copenhagen, learning the web development and design trade.</p>
+            </div>
+        </div>
+    <!--
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <p>Used to coding since early school days, Ralf-Patrik Blaga took his skills further by integrating not just design work, but by becoming a capable organiser and project leader. Originally from Satu Mare, Romania, Ralf moved to Copenhagen to pursue education in the field, further increasing his skills.</p>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <p>With over 5 years of design and coding experience, Johannes Skjærbæk is an integral part of Particle Designs. He was born in Silkeborg, Jutland, but has been forgiven of this crime in recent years, having made his new home in Copenhagen, learning the web development and design trade.</p>
+            </div>
+        </div> -->
+    </div>
+</section>
+</div>
+
+
+
+
+
+<section id="contact" class="section-full-height">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Hire Us</h2>
+                <h3 class="section-subheading">Want to work with us? Have a burning question? Feel free to say hi!</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form name="sentMessage" id="contactForm" action="php/send_form_email.php" method="post" enctype="multipart/form-data" novalidate>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name *" id="name" name="name" required data-validation-required-message="Please enter your name." required>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email *" id="email" name="email" required data-validation-required-message="Please enter your email address." required>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="hidden" id="url" name="url">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Your Message *" id="message" name="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button id="con-sub-btn" type="submit" class="btn btn-xl">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="container-fluid main-container">
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <span class="copyright">Copyright &copy; Particle Designs 2016</span>
+            </div>
+
+            <div class="col-md-6">
+                <ul class="list-inline social-buttons">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+<!-- Portfolio Modals -->
+<!-- Use the modals below to showcase details about your portfolio projects! -->
+
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>SMC</h2>
+                        <p class="item-intro text-muted">Sharing Economy Concept</p>
+                        <img class="img-responsive img-centered" src="img/1.jpg" alt="">
+                        <p>The concept of SMC springs from the desire both to be more helpful and more personally engaging than many service­style guided tours often are. The idea is to allow users to cater to each other based on more exact, specified needs. Whether those needs are to be shown around a new city to get to know where basic shopping
+                            possibilities are, or go into far more specific interests.</p>
+
+
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>How To Be A Spy For An Afternoon</h2>
+                        <p class="item-intro text-muted">Writing and designing content for the web.</p>
+                        <img class="img-responsive img-centered" src="img/2.JPG" alt="">
+                        <p>The "How to be a spy for an afternoon" article came about as one article of several in an e-zine that we produced. Thematically we were bound to urban expression and living under the overall umbrella theme of art. The research involved in finding interesting subcultures and off the radar experiences to write about was a very interesting experience for us, and on where we're proud of the product that was made.</p>
+                        <p>With writing, art and graphical design experience under our belts, this project helped expand our horizons more than it gave us new competences. The project was done at the Copenhagen School of Design and Technology.</p>
+
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Dungeon Hero</h2>
+                        <p class="item-intro text-muted">Retro-style Role Playing Game </p>
+                        <img class="img-responsive img-centered" src="img/3.jpg" alt="">
+                        <p>Dungeon Hero was not the first game we made with Javascript, JQuery and the CreateJS framework. Rather, it represented several months of on and off testing and development of game systems (health, gold, levels and their design, combat, etc) and how game run in general.</p>
+                        <p>While our personal love of the RPG genre influenced the choice of game that was made in this case, the lessons learned apply to all sorts of games. In the process of development we learned lessons that can be applied to 2-player games, quizzes, and a variety of other interesting web-apps. </p>
+
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/raphael.icons.min.js"></script>
+    <script src="js/raphael.min.js"></script>
+    <script src="js/wheelnav.js"></script>
+    <script src="js/wheelnavcustom.js"></script>
+    
+    <script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'json/particlesjs-config.json', function() {
+    console.log('callback - particles.js config loaded');
+    });
+    </script>
+
+<script>
+    $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+
+<script>
+    var hght = $(window).height() / 1.4;
+    var scrnh = "" + hght;
+    document.getElementById("newNav").setAttribute("data-offset-top", scrnh);
+</script>
+
+<script>
+    var hght = $(window).height() / 1.4;
+    $(document).scroll( function(evt){
+        var currentPos = $(this).scrollTop();
+        if(hght < currentPos){
+            document.getElementById("newNav").style.display = "block";
+        } else if (hght > currentPos){
+            document.getElementById("newNav").style.display = "none";
+        }
+    });
+</script>
+
+<script>
+    var hght = $(window).height();
+    $("#particles-js").addClass("particles-temp-bg");
+    $(document).scroll( function(evt){
+        var currentPos = $(this).scrollTop();
+        if(hght < currentPos){
+            $("#particles-js").removeClass("particles-transition-black");
+            $("#particles-js").addClass("particles-transition-blue");
+            $("#particles-js").removeClass("particles-temp-bg");
+        } else if (hght > currentPos){
+            $("#particles-js").removeClass("particles-transition-blue");
+            $("#particles-js").addClass("particles-transition-black");
+        }
+    });
+	
+    $("#particles-js2").addClass("particles-temp-bg");
+</script>
+
+<script>
+    var send = document.getElementById('con-sub-btn');
+    if(send) {
+        send.onclick = function () {
+            this.innerHTML = 'Sending...';
+        }
+    }
+    $("#url").attr("value", location.href);
+</script>
+
+  <script>
+      $(function() {
+          $('body').addClass('loaded');
+      });
+  </script>
+
+  <script>
+      $('body').scrollspy({
+          target: '#myNavbar',
+          offset: 40
+      });
+  </script>
+
+  <script>
+      $(function() {
+          $('.portfolio-image').each(function() {
+              $(this).wrap('<div class="tint"></div>');
+          });
+      });
+  </script>
+
+  </body>
+</html>
